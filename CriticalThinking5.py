@@ -28,7 +28,7 @@ print("The number of months:", str(count))
 
 print("The total amount of rainfall is:", str(result) + '"')
 
-print("The average rainfall per month over all periods is:", str(result/count) +'"') 
+print("The average rainfall per month over all periods is:", str(format((result/count),".2f") +'"')) 
 
 print()
 print()
@@ -40,7 +40,6 @@ print()
 
 #Default for part 2
 books = 0
-purchase = False
 
 print("Please enter the number of books purchased this month")
 books = int(input())
